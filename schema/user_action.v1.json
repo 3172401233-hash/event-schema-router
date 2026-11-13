@@ -1,0 +1,12 @@
+{
+  "name": "user_action",
+  "version": 1,
+  "fields": [
+    {"name": "event_id", "type": "string", "required": true},
+    {"name": "event_time", "type": "datetime", "required": true},
+    {"name": "user_id", "type": "int", "required": true},
+    {"name": "amount", "type": "float", "required": false},
+    {"name": "note", "type": "string", "required": false},
+    {"name": "tags", "type": "json", "required": false}
+  ]
+}
